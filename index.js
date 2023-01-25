@@ -8,6 +8,7 @@ function addLists() {
   } else {
     const ul = divList.querySelector("ul");
     const li = document.createElement("li");
+
     li.innerHTML = addInput.value;
     addInput.value = "";
     ul.appendChild(li);
